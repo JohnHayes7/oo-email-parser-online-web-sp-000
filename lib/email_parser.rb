@@ -14,6 +14,7 @@ attr_accessor :emails
   end
   
   def parse
+    
   end
 
 end
