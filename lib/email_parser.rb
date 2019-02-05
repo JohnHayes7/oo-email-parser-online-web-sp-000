@@ -18,7 +18,8 @@ attr_accessor :emails
   def parse
     parsed = @emails.split(/,|\s/)
       parsed.collect do |i|
-    end
+        
+      end
   end
 
 end
