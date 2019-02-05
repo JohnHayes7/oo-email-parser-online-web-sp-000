@@ -10,11 +10,11 @@ attr_accessor :emails
 @@all = []
 
   def initialize(emails)
-    @@all << self
+    @emails = emails
   end
   
   def parse
-    
+    @emails.split(/," " /)
   end
 
 end
