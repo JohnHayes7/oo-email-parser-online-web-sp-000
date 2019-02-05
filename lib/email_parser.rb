@@ -10,6 +10,7 @@ attr_accessor :emails
 @@all = []
 
   def initialize(emails)
+    @@all << self
   end
   
   def parse
