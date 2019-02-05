@@ -17,9 +17,7 @@ attr_accessor :emails
   
   def parse
     parsed = @emails.split(/,|\s/)
-      parsed.collect do |i|
-        if i.length == 0
-      end
+    parsed.delete("")
   end
 
 end
